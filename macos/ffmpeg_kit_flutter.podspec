@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform            = :osx
   s.requires_arc        = true
-  s.static_framework    = false
+  s.static_framework    = true
 
   s.source              = { :path => '.' }
   s.source_files        = 'Classes/**/*'
