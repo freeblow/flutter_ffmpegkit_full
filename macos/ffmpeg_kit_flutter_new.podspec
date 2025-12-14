@@ -23,9 +23,10 @@ Pod::Spec.new do |s|
   s.subspec 'full-gpl' do |ss|
     # Adding pre-install hook for macOS
     s.prepare_command = <<-CMD
+      echo `PWD`
       if [ ! -d "./Frameworks" ]; then
         chmod +x ../scripts/setup_macos.sh
-        ../scripts/setup_macos.sh
+        sh ../scripts/setup_macos.sh
       fi
     CMD
     ss.source_files         = 'Classes/**/*'

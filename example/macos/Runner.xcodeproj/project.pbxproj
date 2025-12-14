@@ -21,6 +21,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		007D2D582EEED55B00CE3292 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D572EEED55B00CE3292 /* libz.tbd */; };
+		007D2D5A2EEED56300CE3292 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D592EEED56300CE3292 /* libc++.tbd */; };
+		007D2D5D2EEED56B00CE3292 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D5B2EEED56B00CE3292 /* libiconv.2.tbd */; };
+		007D2D5E2EEED56B00CE3292 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D5C2EEED56B00CE3292 /* libiconv.tbd */; };
+		007D2D602EEED57200CE3292 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D5F2EEED57200CE3292 /* CoreVideo.framework */; };
+		007D2D642EEED57A00CE3292 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D612EEED57A00CE3292 /* AudioToolbox.framework */; };
+		007D2D652EEED57A00CE3292 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D622EEED57A00CE3292 /* CoreAudio.framework */; };
+		007D2D662EEED57A00CE3292 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D2D632EEED57A00CE3292 /* AudioUnit.framework */; };
 		331C80D8294CF71000263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C80D7294CF71000263BE5 /* RunnerTests.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
 		33CC10F12044A3C60003C045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC10F02044A3C60003C045 /* AppDelegate.swift */; };
@@ -62,6 +70,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		007D2D572EEED55B00CE3292 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		007D2D592EEED56300CE3292 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		007D2D5B2EEED56B00CE3292 /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		007D2D5C2EEED56B00CE3292 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		007D2D5F2EEED57200CE3292 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		007D2D612EEED57A00CE3292 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		007D2D622EEED57A00CE3292 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		007D2D632EEED57A00CE3292 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		06C6CE847ED42DE8F19B2320 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		1DFBBFA69AB3F9C804798360 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331C80D5294CF71000263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +119,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007D2D642EEED57A00CE3292 /* AudioToolbox.framework in Frameworks */,
+				007D2D652EEED57A00CE3292 /* CoreAudio.framework in Frameworks */,
+				007D2D662EEED57A00CE3292 /* AudioUnit.framework in Frameworks */,
+				007D2D602EEED57200CE3292 /* CoreVideo.framework in Frameworks */,
+				007D2D5D2EEED56B00CE3292 /* libiconv.2.tbd in Frameworks */,
+				007D2D5E2EEED56B00CE3292 /* libiconv.tbd in Frameworks */,
+				007D2D5A2EEED56300CE3292 /* libc++.tbd in Frameworks */,
+				007D2D582EEED55B00CE3292 /* libz.tbd in Frameworks */,
 				E7F4E91CB945F554F3B479AE /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +212,14 @@
 		470DB9D9B04269FC2FC41D8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				007D2D612EEED57A00CE3292 /* AudioToolbox.framework */,
+				007D2D632EEED57A00CE3292 /* AudioUnit.framework */,
+				007D2D622EEED57A00CE3292 /* CoreAudio.framework */,
+				007D2D5F2EEED57200CE3292 /* CoreVideo.framework */,
+				007D2D5C2EEED56B00CE3292 /* libiconv.tbd */,
+				007D2D5B2EEED56B00CE3292 /* libiconv.2.tbd */,
+				007D2D592EEED56300CE3292 /* libc++.tbd */,
+				007D2D572EEED55B00CE3292 /* libz.tbd */,
 				1DFBBFA69AB3F9C804798360 /* Pods_Runner.framework */,
 				39CD7DF83E2993FA234FB2C7 /* Pods_RunnerTests.framework */,
 			);
@@ -204,7 +236,6 @@
 				FEF5C754CAD74031B271C0FB /* Pods-RunnerTests.release.xcconfig */,
 				06C6CE847ED42DE8F19B2320 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -574,6 +605,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8FU724944;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -706,6 +738,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8FU724944;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -726,6 +759,7 @@
 				CODE_SIGN_ENTITLEMENTS = Runner/Release.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P8FU724944;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
