@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
     s.prepare_command = <<-CMD
       if [ ! -d "./Frameworks" ]; then
         chmod +x ../scripts/setup_ios.sh
-        ../scripts/setup_ios.sh
-        fi
+        sh ../scripts/setup_ios.sh
+      fi
     CMD
     ss.source_files         = 'Classes/**/*'
     ss.public_header_files  = 'Classes/**/*.h'

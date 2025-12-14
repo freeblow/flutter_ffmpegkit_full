@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
       echo `PWD`
       if [ ! -d "./Frameworks" ]; then
         chmod +x ../scripts/setup_macos.sh
-        ../scripts/setup_macos.sh
+        sh ../scripts/setup_macos.sh
       fi
     CMD
     ss.source_files         = 'Classes/**/*'
