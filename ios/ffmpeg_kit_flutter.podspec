@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-  s.name             = 'ffmpeg_kit_flutter_new'
+  s.name             = 'ffmpeg_kit_flutter'
   s.version          = '1.0.0'
   s.summary          = 'FFmpeg Kit for Flutter'
   s.description      = 'A Flutter plugin for running FFmpeg and FFprobe commands.'
-  s.homepage         = 'https://github.com/sk3llo/ffmpeg_kit_flutter'
+  s.homepage         = 'https://github.com/freeblow/flutter_ffmpegkit_full'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Anton Karpenko' => 'kapraton@gmail.com' }
 
