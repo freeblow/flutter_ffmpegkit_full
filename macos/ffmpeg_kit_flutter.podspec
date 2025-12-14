@@ -31,14 +31,14 @@ Pod::Spec.new do |s|
     CMD
     ss.source_files         = 'Classes/**/*'
     ss.public_header_files  = 'Classes/**/*.h'
-    ss.osx.vendored_frameworks = 'Frameworks/ffmpegkit.xcframework',
-                                 'Frameworks/libavcodec.xcframework',
-                                 'Frameworks/libavdevice.xcframework',
-                                 'Frameworks/libavfilter.xcframework',
-                                 'Frameworks/libavformat.xcframework',
-                                 'Frameworks/libavutil.xcframework',
-                                 'Frameworks/libswresample.xcframework',
-                                 'Frameworks/libswscale.xcframework'
+    ss.osx.vendored_frameworks = 'Frameworks/ffmpegkit.framework',
+                                 'Frameworks/libavcodec.framework',
+                                 'Frameworks/libavdevice.framework',
+                                 'Frameworks/libavfilter.framework',
+                                 'Frameworks/libavformat.framework',
+                                 'Frameworks/libavutil.framework',
+                                 'Frameworks/libswresample.framework',
+                                 'Frameworks/libswscale.framework'
     ss.osx.frameworks = 'AudioToolbox', 'CoreMedia'
     ss.libraries = 'z', 'bz2', 'c++', 'iconv'
     ss.osx.deployment_target = '10.15'
